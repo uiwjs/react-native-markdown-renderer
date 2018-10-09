@@ -7,12 +7,12 @@ a web-view markdown renderer but a renderer that uses native components for all 
  - [Documentation](https://github.com/mientjan/react-native-markdown-renderer/wiki/)
  - [Examples](https://github.com/mientjan/react-native-markdown-renderer/wiki/Examples)
  - [Example App](https://github.com/mientjan/react-native-markdown-renderer/wiki/ExampleApp)
- 
-  
+
+
 ### Syntax Support
 
 To give a summary of the supported syntax react-native-markdown-renderer supports.
- 
+
  - Tables
  - Heading 1 > 6
  - Horizontal Rules
@@ -48,11 +48,11 @@ To give a summary of the supported syntax react-native-markdown-renderer support
 
 #### npm
 ```npm
-npm install -S react-native-markdown-renderer
+npm install -S rnmd
 ```
 #### yarn
 ```npm
-yarn add react-native-markdown-renderer
+yarn add rnmd
 ```
 
 See [WIKI](https://github.com/mientjan/react-native-markdown-renderer/wiki/) for examples and documentation
