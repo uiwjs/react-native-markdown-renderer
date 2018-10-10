@@ -1,6 +1,6 @@
 {
   "name": "rnmd",
-  "version": "3.2.9",
+  "version": "3.2.10",
   "description": "Markdown renderer for react-native, with CommonMark spec support + adds syntax extensions & sugar (URL autolinking, typographer).",
   "main": "src/index.js",
   "types": "src/index.d.ts",
@@ -31,8 +31,6 @@
     "react-native-fit-image": "^1.5.2"
   },
   "peerDependencies": {
-    "react": "^16.2.0",
-    "react-native": "^0.50.4"
   },
   "devDependencies": {
     "chokidar": "^2.0.0",
