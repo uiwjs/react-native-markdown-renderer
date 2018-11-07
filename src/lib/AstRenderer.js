@@ -51,6 +51,11 @@ export default class AstRenderer {
     if (node.type === "text") {
       return renderFunction(node, [], parentNodes, this._style);
     }
+    // 处理多余的换行符
+    if (node.type === "fence") {
+      node.content = node.content.replace(/^\s+|\s+$/g, '')
+      return renderFunction(node, [], parentNodes, this._style);
+    }
 
     const children = node.children.map(value => {
       return this.renderNode(value, parents);

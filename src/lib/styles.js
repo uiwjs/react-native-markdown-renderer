@@ -8,18 +8,13 @@ export const styles = StyleSheet.create({
   root: {},
   view: {},
   codeBlock: {
-    borderWidth: 1,
-    borderColor: '#CCCCCC',
     backgroundColor: '#f5f5f5',
     padding: 10,
     borderRadius: 4,
   },
   codeInline: {
-    borderWidth: 1,
-    borderColor: '#CCCCCC',
-    backgroundColor: '#f5f5f5',
-    padding: 10,
-    borderRadius: 4,
+    backgroundColor: '#ececec',
+    borderRadius: 3,
   },
   del: {
     backgroundColor: '#000000',
@@ -30,24 +25,33 @@ export const styles = StyleSheet.create({
   headingContainer: {
     flexDirection: 'row',
   },
-  heading: {},
+  heading: {
+    fontWeight: 'bold',
+    marginTop: 10,
+  },
+  headingLine: {
+    borderBottomWidth: 1,
+    borderBottomColor: '#eaecef',
+    paddingBottom: 5,
+  },
   heading1: {
-    fontSize: 32,
+    fontSize: 24,
   },
   heading2: {
-    fontSize: 24,
+    fontSize: 20,
+    width: '100%',
   },
   heading3: {
     fontSize: 18,
   },
   heading4: {
-    fontSize: 16,
+    fontSize: 18,
   },
   heading5: {
-    fontSize: 13,
+    fontSize: 14,
   },
   heading6: {
-    fontSize: 11,
+    fontSize: 14,
   },
   hr: {
     backgroundColor: '#000000',
@@ -117,7 +121,7 @@ export const styles = StyleSheet.create({
   },
   paragraph: {
     marginTop: 10,
-    marginBottom: 10,
+    marginBottom: 5,
     flexWrap: 'wrap',
     flexDirection: 'row',
     alignItems: 'flex-start',
