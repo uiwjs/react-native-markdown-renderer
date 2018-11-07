@@ -48,11 +48,11 @@ To give a summary of the supported syntax react-native-markdown-renderer support
 
 #### npm
 ```npm
-npm install -S rnmd
+npm i @uiw/react-native-markdown
 ```
 #### yarn
 ```npm
-yarn add rnmd
+yarn add @uiw/react-native-markdown
 ```
 
 See [WIKI](https://github.com/mientjan/react-native-markdown-renderer/wiki/) for examples and documentation
